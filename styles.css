@@ -3,7 +3,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-width: 800px;
+    min-width: 650px;
 }
 .header {
     display: flex;
@@ -30,11 +30,13 @@ ul {
     display: flex;
     justify-content: flex-end;
     padding: 0;
+    margin: 15px 0;
 
 
 }
 li {
-    display: inline;
+    display: inline-block;
+    
 
 
 
@@ -43,7 +45,7 @@ a {
     text-decoration: none;
     color: white;
     background-color: mediumblue;
-    margin: 0 25px 0 0;
+    margin: 15px 10px;
 
 }
 .info {
@@ -68,11 +70,20 @@ a {
     color: white;
 }
 .content {
-    font-size: large;
+    min-width: 650px;
     text-align: justify;
 }
 
 h1 {
     text-align: center;
     text-decoration: underline;
+}
+.text {
+    white-space: pre-wrap;
+}
+a:hover {
+    background-color: darkblue;
+}
+
+
 }
